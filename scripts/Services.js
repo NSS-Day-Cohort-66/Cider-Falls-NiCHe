@@ -1,1 +1,3 @@
 const a = []
+
+let b = ""
