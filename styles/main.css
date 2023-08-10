@@ -1,0 +1,20 @@
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo{
+    border: solid;
+    border-radius: 1000px;
+    width: 100px;
+    height:100px;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+
+.header{
+    display: flex;
+}
