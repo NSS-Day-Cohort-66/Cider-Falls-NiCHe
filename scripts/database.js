@@ -153,7 +153,27 @@ const database = {
     },
     {
       id: 10,
-      name: "Zip Lines"  
+      name: "Zip Lines"        
+    },
+    {
+      id: 11,
+      name: "Restaurant"
+    },
+    {
+      id: 12,
+      name: "Hotel"
+    },
+    {
+      id: 13,
+      name: "Office Park"
+    },
+    {
+      id: 14,
+      name: "Children Play Areas"
+    },
+    {
+      id: 15, 
+      name: "Food Vendors"
     }
 ],
   destinations :
@@ -277,6 +297,31 @@ const database = {
       id: 17,
       destination: 6,
       serviceId: 10  
+    },
+    {
+      id: 18,
+      destinationId: 1,
+      serviceId: 11
+    },
+    {
+      id: 19,
+      destinationId: 1,
+      serviceId: 12
+    },
+    {
+      id: 20,
+      destinationId: 5,
+      serviceId: 13
+    },
+    {
+      id: 21,
+      destinationId: 5,
+      serviceId: 14
+    },
+    {
+      id: 22,
+      destinationId: 6,
+      serviceId: 15
     }
 ]   
 }
