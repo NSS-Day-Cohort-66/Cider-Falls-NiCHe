@@ -164,7 +164,7 @@ const database = {
     {
       id: 2,
       name: "Lost Wolf Hiking",
-      location: "Northern"
+      location: "North"
     },
     {
       id: 3,
@@ -179,7 +179,7 @@ const database = {
     {
       id: 5,
       name: "Campgrounds",
-      location: "North"
+      location: "South"
     },
     {
       id: 6,
@@ -269,12 +269,12 @@ const database = {
       serviceId: 4
     },
     {
-      id: 15,
+      id: 16,
       destination: 6,
       serviceId: 5  
     },
     {
-      id: 15,
+      id: 17,
       destination: 6,
       serviceId: 10  
     }
