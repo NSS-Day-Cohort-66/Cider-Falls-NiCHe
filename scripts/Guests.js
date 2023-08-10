@@ -6,7 +6,7 @@ export const GuestList = () => {
     let guestHTML = "<ul>"
 
     for (const guest of guests) {
-        guestHTML += `<li>${guest.firstName} ${guest.lastName}</li>`
+        guestHTML += `<li class="guest">${guest.firstName} ${guest.lastName}</li>`
     }
     guestHTML += `</ul>`
     return guestHTML
