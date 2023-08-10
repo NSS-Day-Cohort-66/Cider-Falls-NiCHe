@@ -290,9 +290,9 @@ export const getServices = () => {
 }
 
 export const getDestinations = () => {
-    return database.guests.map(destination => ({...destination}))
+    return database.destinations.map(destination => ({...destination}))
 }
 
 export const getDestinationServices = () => {
-    return database.guests.map(destinationService => ({...destinationService}))
+    return database.destinationServices.map(destinationService => ({...destinationService}))
 }
