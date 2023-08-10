@@ -26,6 +26,6 @@
 
 ## In Guests module, import necessary functions and iterate through guests array to output guests list
 
-## In Services module, create a function that destinationServicesList has the destination object as a parameter and returns what services are supported at that destination. Import GetDestinations, GetDestinationServices, GetServices
+## In Services module, create a function, destinationServicesList, that has the destination object as a parameter and returns what services are supported at that destination. Import GetDestinations, GetDestinationServices, GetServices
 
 ## CSS Stylings
