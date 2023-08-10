@@ -1,4 +1,4 @@
-import { DestinationCards } from "./Destinations.js";
+//import { DestinationCards } from "./Destinations.js";
 import { GuestList } from "./Guests.js";
 
 const mainContainer = document.querySelector("#container");
