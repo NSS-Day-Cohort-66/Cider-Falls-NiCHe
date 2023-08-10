@@ -290,12 +290,12 @@ const database = {
     },
     {
       id: 16,
-      destination: 6,
+      destinationId: 6,
       serviceId: 5  
     },
     {
       id: 17,
-      destination: 6,
+      destinationId: 6,
       serviceId: 10  
     },
     {
