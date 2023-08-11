@@ -26,7 +26,7 @@ h1 {
 }
 
 #destinationsSection {
-  width: 60%;
+  width: 69%;
 }
 
 #guests {
@@ -44,6 +44,25 @@ h1 {
   text-shadow: 0 0 1px whitesmoke;
 }
 
+#destinations{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.destinationCard{
+    width: 27%;
+    border: solid;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-image: url(https://images.nightcafe.studio/jobs/1xsuBmt4qX2qG4qOPMy7/1xsuBmt4qX2qG4qOPMy7--1--zm6cy.jpg?tr=w-1600,c-at_max);
+    color: white;
+    border-color: lavenderblush;
+    box-shadow: 10px 10px 5px lightblue;
+    text-shadow: 5px 5px 8px black;
+    font-family: 'Preahvihear', sans-serif;
+}
 #guests_title {
     text-align: center ;
 }
