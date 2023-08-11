@@ -14,7 +14,6 @@ body {
   border-radius: 1000px;
   width: 150px;
   height: 150px;
-  margin-left: 150px;
   margin-top: 40px;
 }
 
@@ -30,7 +29,7 @@ h1 {
   width: 40%;
   padding-top: 20px;
   height: 100px;
-  margin-left: 200px;
+  margin: 0 auto;
   background-color: #92140c;
   border-radius: 15px;
   text-shadow: 0 0 1px whitesmoke;
@@ -39,6 +38,9 @@ h1 {
 
 .header {
   display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-right: 150px;
 }
 
 #container {
