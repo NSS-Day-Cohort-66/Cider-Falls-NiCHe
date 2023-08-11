@@ -18,3 +18,14 @@ h1{
 .header{
     display: flex;
 }
+
+#destinations{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.destinationCard{
+    flex-basis: 32%;
+    border: solid;
+}
