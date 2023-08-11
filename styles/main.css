@@ -39,6 +39,15 @@ h1 {
 }
 
 .destinationCard{
-    flex-basis: 32%;
+    flex-basis: 20%;
     border: solid;
+    margin: 10px;
+    padding-left: 50px;
+    padding-right: -10px;
+    background-image: url(https://images.nightcafe.studio/jobs/1xsuBmt4qX2qG4qOPMy7/1xsuBmt4qX2qG4qOPMy7--1--zm6cy.jpg?tr=w-1600,c-at_max);
+    color: white;
+    border-color: lavenderblush;
+    box-shadow: 10px 10px 5px lightblue;
+    text-shadow: 5px 5px 8px black;
+    filter:brightness(100%)
 }
