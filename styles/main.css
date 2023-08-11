@@ -22,12 +22,31 @@ h1 {
 #container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 #destinationsSection {
-  width: 67%;
+  width: 60%;
 }
 
 #guests {
-  width: 33%;
+  width: 30%;
+  border: groove 4px #1c2e03;
+  text-align: start center;
+  text-indent: 5px;
+  font-family: 'Preahvihear', sans-serif;
+  font-size: 18px;
+  height: fit-content;
+  color: #638b29;
+  background-color: #b6ba9b;
+  border-radius: 25px;
+  list-style-position: inside;
+  text-shadow: 0 0 1px whitesmoke;
 }
+
+#guests_title {
+    text-align: center ;
+}
+
+
+
