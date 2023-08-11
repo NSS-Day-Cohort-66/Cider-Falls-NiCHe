@@ -51,7 +51,7 @@ h1 {
 }
 
 .destinationCard{
-    flex-basis: 20%;
+    width: 27%;
     border: solid;
     margin: 10px;
     padding-left: 20px;
