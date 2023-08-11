@@ -9,7 +9,7 @@ const pageHTML = `
     ${ParkServices()}
 </article>
 <article id="destinationsSection">
-    <h2>Destinations</h2>
+    <h2 id="destinations_title">Destinations</h2>
     ${DestinationCards()}
 </article>
 <article id="guests">
