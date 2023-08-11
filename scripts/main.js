@@ -9,7 +9,7 @@ const pageHTML = `
     ${DestinationCards()}
 </article>
 <article id="guests">
-    <h2>Current Guests</h2>
+    <h2 id="guests_title">Current Guests</h2>
     ${GuestList()}
 </article>
 `;
