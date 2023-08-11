@@ -33,13 +33,14 @@ h1 {
 }
 
 #destinations{   
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 33% 33% 33%;
+
 }
 
 .destinationCard{
-    flex-basis: 20%;
+    display: grid;
     border: solid;
     margin: 10px;
     padding-left: 50px;
