@@ -27,10 +27,10 @@ export const ParkServices = () => {
     parkServicesHTML += `<span data-id="${service.id}"
                         data-type="parkservice"
                         data-name="${service.name}">
-                        ${service.name}, </span>
-                        `
+                        ${service.name},</span>`
   }
-  parkServicesHTML.slice(0, -2)
+  parkServicesHTML = parkServicesHTML.slice(0, - 8)
+  parkServicesHTML += `</span></div>`
   return parkServicesHTML
 }
 
